@@ -1,0 +1,17 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Confidentialité – I-Tech Solutions</title>
+<style>body{font-family:Inter,system-ui;margin:40px;max-width:900px}.muted{color:#666}</style>
+</head><body>
+<h1>Politique de confidentialité</h1>
+<p class="muted">Dernière mise à jour : 2025-10-06 · Fribourg, Suisse</p>
+<p>Nous collectons les données que vous soumettez via le formulaire (nom, email, message) dans le seul but de répondre à votre demande et de délivrer nos services.</p>
+<ul>
+  <li>Base légale : intérêt légitime / exécution pré-contractuelle</li>
+  <li>Conservation : 24 mois maximum ou sur demande de suppression</li>
+  <li>Partage : pas de vente de données. Sous-traitants éventuels : hébergeur Netlify, email, outils CRM.</li>
+  <li>Droits : accès, rectification, suppression : contact : support@exemple.com</li>
+</ul>
+<p>Hébergement : Netlify, USA / UE (CDN). Les formulaires sont traités par Netlify Forms.</p>
+<p>Pour toute question : support@exemple.com</p>
+</body></html>
