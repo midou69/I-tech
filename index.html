@@ -1,36 +1,27 @@
 <!doctype html>
 <html lang="fr">
-<!-- GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-  gtag('config', 'G-XXXXXXX');
-</script>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>I‑Tech Solutions — Outils numériques simples, efficaces et intelligents</title>
   <meta name="description" content="Outils et automations intelligentes pour optimiser l'organisation, gagner du temps et fiabiliser les opérations. Accéléré par l'IA, conçu pour le terrain." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <meta property="og:title" content="I-Tech Solutions — Outils & automations IA pour l’industrie" />
+  <meta property="og:title" content="I‑Tech Solutions — Outils & automations IA pour l’industrie" />
   <meta property="og:description" content="Des outils simples, efficaces et intelligents pour optimiser vos opérations et gagner du temps." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://i-tech0.netlify.app" />
-  <meta property="og:image" content="https://i-tech0.netlify.app/og-cover.png" />
+  <meta property="og:image" content="/og-cover.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">
-  {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "I-Tech Solutions",
-  "url": "https://i-tech0.netlify.app",
-  "address": { "@type": "PostalAddress", "addressLocality": "Fribourg", "addressCountry": "CH" }
-}
-</script>
-
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "I‑Tech Solutions",
+    "url": "https://i-tech0.netlify.app",
+    "address": {"@type": "PostalAddress", "addressLocality": "Fribourg", "addressCountry": "CH"},
+    "contactPoint": [{"@type": "ContactPoint", "contactType": "customer support", "email": "eddine.bouteraa@gmail.com"}]
+  }</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{--bg:#0f1115;--card:#151922;--muted:#a7b0c0;--text:#ecf0f3;--pri:#6ee7ff;--pri2:#8b5cf6;--ok:#22c55e;--danger:#ef4444}
     *{box-sizing:border-box}
@@ -85,6 +76,7 @@
       .hero h1{font-size:36px}
     }
   </style>
+  <link rel="icon" href="/favicon.ico">
 </head>
 <body>
   <header>
@@ -187,7 +179,7 @@
             <li>Support prioritaire</li>
           </ul>
           <!-- Remplace HREF par ton lien Stripe Checkout -->
-          <a class="btn primary" href="https://buy.stripe.com/9B628r4r29Tq9CzgYuaMU00">Payer avec Stripe</a>
+          <a class="btn primary" href="https://checkout.stripe.com/pay/EXEMPLE_LIEN">Payer avec Stripe</a>
         </div>
         <div class="price">
           <h3>Entreprise</h3>
@@ -240,11 +232,11 @@
       </div>
       <div>
         <div class="mini"><b>Légal</b></div>
-        <div class="mini"><a href="#">CGU</a> • <a href="#">Politique de confidentialité</a></div>
+        <div class="mini"><a href="/terms.html">CGU</a> • <a href="/privacy.html">Politique de confidentialité</a></div>
       </div>
       <div>
         <div class="mini"><b>Contact</b></div>
-        <div class="mini">Fribourg, Suisse • support@exemple.com</div>
+        <div class="mini">Fribourg, Suisse • <a href="mailto:eddine.bouteraa@gmail.com">eddine.bouteraa@gmail.com</a></div>
       </div>
     </div>
   </footer>
