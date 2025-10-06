@@ -185,8 +185,9 @@
       <h2>Contact</h2>
       <div class="muted">Décrivez votre besoin : on revient vers vous dans la journée.</div>
       <div class="split">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/merci.html">
           <input type="hidden" name="form-name" value="contact">
+          <p style="display:none"><label>Ne pas remplir: <input name="bot-field" /></label></p>
           <label>Nom<input name="name" required placeholder="Nom / Société"></label>
           <label>Email<input type="email" name="email" required placeholder="vous@domaine.com"></label>
           <label>Téléphone (facultatif)<input name="phone" placeholder="+41 00 000 00 00"></label>
